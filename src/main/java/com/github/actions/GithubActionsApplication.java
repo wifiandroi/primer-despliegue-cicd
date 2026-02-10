@@ -19,6 +19,11 @@ public class GithubActionsApplication {
 		return ":::: Joseph2 ::: ";
 	}
 
+	@GetMapping("/trajegithub")
+	public String congiyhub() {
+		return ":::: baje y subi cambios ::: ";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(GithubActionsApplication.class, args);
 	}
