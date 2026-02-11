@@ -27,7 +27,7 @@ jobs:
     - name: Build & push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-        image: josephmanuel/github-actions-image
+        image: wifiandroi/github-actions-image
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
