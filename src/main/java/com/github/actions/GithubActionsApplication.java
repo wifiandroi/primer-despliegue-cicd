@@ -20,12 +20,12 @@ public class GithubActionsApplication {
 	}
 
 	@GetMapping("/trajegithub")
-	public String congiyhub() {
+	public String congiyhubone() {
 		return ":::: baje y subi cambios ::: ";
 	}
 
-		@GetMapping("/trajegithub2")
-	public String congiyhub() {
+		@GetMapping("/trajegithub-2")
+	public String congiyhubtwo() {
 		return ":::: baje y subi cambios2 ::: ";
 	}
 
